@@ -15,7 +15,7 @@
     <link
       href="https://cdn.jsdelivr.net/gh/fibit/swiper-mouseover@main/swiper-mouseover.min.css"
       rel="stylesheet" />
-    <link href="/css/style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="mt-5 transition-colors mb-[50px]">
@@ -69,7 +69,7 @@
     <main>
       <nav class="mb-5" aria-label="breadcrumb">
         <div class="max-w-[1268px] mx-auto px-5">
-          <ol class="flex items-center body-s-semibold text-neutral-600">
+          <ol class="flex items-center body-s-semibold media-590:caption text-neutral-600">
             <li class=""><a href="index.html">Главная</a></li>
             <li
               class="before:content-breadcrumb before:inline-block before:px-2 before:pr-1">
@@ -81,17 +81,17 @@
       <section class="mb-8">
         <div class="max-w-[1268px] mx-auto px-5">
           <div class="hidden media-1270:block">
-            <h1 class="h1 media-1270:max-w-[848px] text-neutral-600 mb-4 hover:text-accent-400">
+            <h1 class="h1 media-1270:max-w-[848px] media-890:max-w-[690px] media-780:max-w-[550px] media-590:mobile-h1 media-590:max-w-[320px] text-neutral-600 mb-4 hover:text-accent-400">
               Продам красную смородину, сбор на понедельник-вторник
             </h1>
-            <p class="body-m-semibold w-[356px]  text-accent-500 mb-4">
+            <p class="body-m-semibold max-w-[356px]  text-accent-500 mb-4">
               Цена не указана
             </p>
           </div>
           <div class="flex gap-6 items-center media-1270:flex-col media-1270:items-start">
             <div
-              class="max-w-[848px] grid gap-2 grid-cols-gallery-1 grid-rows-[repeat(4, 132px)] media-890:grid-cols-gallery-2 media-725:grid-cols-gallery-3">
-              <div class="row-span-4 col-span-5 rounded media-725:col-span-4">
+              class="max-w-[848px] grid gap-2 grid-cols-gallery-1 grid-rows-[repeat(4, 132px)] media-890:grid-cols-gallery-2 media-725:grid-cols-gallery-3 media-590:grid-cols-gallery-4 media-350:grid-cols-gallery-5">
+              <div class="row-span-4 col-span-5 rounded media-725:col-span-4 media-590:col-span-3">
                 <img class="h-full" src="img/photo-grid-1.jpg" alt="" />
               </div>
               <div class="rounded">
@@ -100,17 +100,20 @@
               <div class="rounded">
                 <img src="img/photo-grid-2.jpg" alt="" />
               </div>
-              <div class="rounded">
+              <div class="rounded media-590:hidden">
                 <img src="img/photo-grid-2.jpg" alt="" />
               </div>
               <div class="rounded relative bg-neutralBlack">
                 <img
                   class="opacity-50"
                   src="img/photo-grid-2.jpg"
-                  alt="" /><span
-                  class="text-neutralWhite absolute top-[35px] left-[40px] body-s-semibold"
-                  >+8 фото</span
-                >
+                  alt="" />
+                  <span class="text-neutralWhite absolute top-[35px] left-[40px] body-s-semibold media-590:hidden">
+                    +8 фото
+                  </span>
+                  <span class="text-neutralWhite hidden absolute top-[25px] left-[25px] body-s-semibold media-590:inline">
+                    +9 фото
+                  </span>
               </div>
             </div>
             <div class="">
@@ -123,11 +126,11 @@
                 </p>
               </div>
               <div
-                class="card-info w-[356px]  bg-neutralWhite p-5 rounded shadow-2xl">
+                class="card-info w-[356px] media-590:w-[319px] media-350:w-[285px]   bg-neutralWhite p-5 rounded shadow-2xl">
                 <div class="flex items-center mb-5 media-780:mb-1">
                   <img class="mr-2" src="img/avatar-big.png" alt="" />
                   <div class="">
-                    <h2 class="h2 text-neutral-600 mb-1">Васильев Александр</h2>
+                    <h2 class="h2 text-neutral-600 mb-1 media-590:body-s-semibold">Васильев Александр</h2>
                     <p
                       class="caption w-[147px] text-accent-500 flex px-2 py-[2px] bg-accent-100 rounded-2xl">
                       <img class="mr-1" src="img/icons/check.svg" alt="" /><span
@@ -137,7 +140,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="flex justify-between mb-3 body-m-semibold">
+                <div class="flex justify-between mb-3 body-m-semibold media-590:caption">
                   <p class="text-neutral-300 media-533:caption">
                     Рейтинг продавца:
                   </p>
@@ -145,7 +148,7 @@
                     <img class="mr-1" src="img/icons/star.svg" alt="" /> 5.0
                   </p>
                 </div>
-                <div class="flex justify-between mb-5 body-m-semibold">
+                <div class="flex justify-between mb-5 body-m-semibold media-590:caption">
                   <p class="text-neutral-300 media-533:caption">
                     Кол-во объявлений:
                   </p>
@@ -153,10 +156,10 @@
                 </div>
                 <div class="mb-3 text-center">
                   <a
-                    class="relative block w-[316px] body-s-semibold text-neutralWhite px-7 py-2 bg-vk-400 rounded mb-2 hover:bg-vk-300 media-533:caption"
+                    class="relative block w-[316px] media-590:w-[279px] media-390:w-[260px] body-s-semibold media-590:caption text-neutralWhite px-7 py-2 bg-vk-400 rounded mb-2 hover:bg-vk-300 media-533:caption"
                     href="#">
                     <img
-                      class="top-[10px] left-[110px] size-4 absolute mr-2"
+                      class="top-2 left-[110px] size-4 absolute mr-2 media-590:top-[6px] media-590:left-[100px] media-390:left-[95px]"
                       src="img/icons/vk.svg"
                       alt="" />
                     <span class="ml-5">Написать </span>
@@ -164,7 +167,7 @@
                 </div>
                 <div class="text-center">
                   <a
-                    class="body-s-semibold text-accent-400 hover:text-accent-300 media-533:caption"
+                    class="body-s-semibold text-accent-400 hover:text-accent-300 media-590:caption"
                     href="#"
                     >Подробнее о продавце</a
                   >
@@ -176,8 +179,8 @@
       </section>
       <section class="mb-8">
         <div class="max-w-[1268px] mx-auto px-5">
-          <h2 class="h2 text-neutral-600 mb-4">Описание</h2>
-          <p class="body-m text-neutral-300 max-w-[848px]">
+          <h2 class="h2 text-neutral-600 mb-4 media-590:mobile-h2">Описание</h2>
+          <p class="body-m text-neutral-300 max-w-[848px] media-590:body-s">
             Добрый день. Продам смородину черную 450р за кг, смородина красная
             400 р за кг. Забирать ЖК Цветной бульвар 45 стрелковой дивизии 259/1
             подъезд 1 кв 37, за заказом в лс. Собрана сегодня со своего
@@ -190,15 +193,15 @@
       </section>
       <section class="mb-8">
         <div class="max-w-[1268px] mx-auto px-5">
-          <h2 class="h2 text-neutral-600 mb-4">Адрес</h2>
-          <p class="body-m text-neutral-300 max-w-[848px] mb-3">
+          <h2 class="h2 text-neutral-600 mb-4 media-590:mobile-h2">Адрес</h2>
+          <p class="body-m text-neutral-300 max-w-[848px] mb-3 media-590:body-s" >
             Воронежская область, город Воронеж, улица Шишкова, 68
           </p>
-          <div class="max-w-[848px]">
+          <div class="max-w-[848px] h-[379px] media-590:h-[223px]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2472.788281111747!2d39.19503507748933!3d51.70031939659045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x413b2f481a38bd35%3A0xbc063ab2001e5ce5!2z0YPQuy4g0KjQuNGI0LrQvtCy0LAsIDY4LCDQktC-0YDQvtC90LXQtiwg0JLQvtGA0L7QvdC10LbRgdC60LDRjyDQvtCx0LsuLCAzOTQwNjg!5e0!3m2!1sru!2sru!4v1721736579381!5m2!1sru!2sru"
               width="100%"
-              height="379"
+              height="100%"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
@@ -209,8 +212,8 @@
       <section>
         <div class="max-w-[1268px] mx-auto px-5">
           <div class="mb-4 max-w-[848px]">
-            <h2 class="h2 text-neutral-600 mb-4">Отзывы</h2>
-            <div class="caption">
+            <h2 class="h2 text-neutral-600 mb-4 media-590:mobile-h2">Отзывы</h2>
+            <div class="body-s media-590:caption">
               <button
                 class="px-2 py-1 mr-4 text-neutralWhite bg-accent-400 rounded-2xl">
                 Все<span class="ml-1">12</span>
@@ -227,37 +230,37 @@
           </div>
           <div class="max-w-[848px] mb-[72px]">
             <div class="p-5 shadow-2xl mb-5">
-              <div class="flex justify-between mb-3">
-                <div class="flex items-center">
+              <div class="flex justify-between mb-3 media-590:flex-col media-590:gap-3">
+                <div class="flex items-center ">
                   <img class="mr-2" src="img/review-1.png" alt="" />
                   <p class="body-s-semibold text-neutral-600">Сергеева Ольга</p>
                 </div>
                 <div class="flex items-center">
                   <img class="mr-2" src="img/icons/link.svg" alt="" />
                   <a
-                    class="body-s-semibold text-accent-400 hover:text-accent-300"
+                    class="body-s-semibold text-accent-400 hover:text-accent-300 media-590:caption"
                     href="/index.html"
                     >Чёрная смородина, 1 кг</a
                   >
                 </div>
               </div>
-              <p class="body-m text-neutral-300 mb-3">29.06.2024 16:31</p>
+              <p class="body-m text-neutral-300 mb-3 media-590:body-s">29.06.2024 16:31</p>
               <div class="flex mb-3">
                 <div>
                   <img
-                    class="mr-3 rounded"
+                    class="mr-3 rounded media-590:w-[90px] media-380:w-[70px]"
                     src="img/review-photo-1.jpg"
                     alt="" />
                 </div>
                 <div>
                   <img
-                    class="mr-3 rounded"
+                    class="mr-3 rounded media-590:w-[90px] media-380:w-[70px]"
                     src="img/review-photo-1.jpg"
                     alt="" />
                 </div>
                 <div>
                   <img
-                    class="mr-3 rounded"
+                    class="mr-3 rounded media-590:w-[90px] media-380:w-[70px]"
                     src="img/review-photo-1.jpg"
                     alt="" />
                 </div>
@@ -266,7 +269,7 @@
                 class="caption w-[135px] mb-3 text-accent-500 px-2 py-1 bg-accent-100 rounded-2xl">
                 Проверенный продавец
               </p>
-              <p class="body-m text-neutral-300">
+              <p class="body-m text-neutral-300 media-590:body-s">
                 Очень рада тому, что меня пригласили в эту группу. Много
                 домашних продуктов , некоторые продавцы готовы привезти на дом
                 всё необходимое. Есть и соленья, и варенье, как говорится.
@@ -274,7 +277,7 @@
               </p>
             </div>
             <div class="p-5 shadow-2xl mb-5">
-              <div class="flex justify-between mb-3">
+              <div class="flex justify-between mb-3 media-590:flex-col media-590:gap-3">
                 <div class="flex items-center">
                   <img class="mr-2" src="img/review-1.png" alt="" />
                   <p class="body-s-semibold text-neutral-600">Сергеева Ольга</p>
@@ -282,29 +285,29 @@
                 <div class="flex items-center">
                   <img class="mr-2" src="img/icons/link.svg" alt="" />
                   <a
-                    class="body-s-semibold text-accent-400 hover:text-accent-300"
+                    class="body-s-semibold text-accent-400 hover:text-accent-300 media-590:caption"
                     href="/index.html"
                     >Чёрная смородина, 1 кг</a
                   >
                 </div>
               </div>
-              <p class="body-m text-neutral-300 mb-3">29.06.2024 16:31</p>
+              <p class="body-m text-neutral-300 mb-3 media-590:body-s">29.06.2024 16:31</p>
               <div class="flex mb-3">
                 <div>
                   <img
-                    class="mr-3 rounded"
+                    class="mr-3 rounded media-590:w-[90px] media-380:w-[70px]"
                     src="img/review-photo-1.jpg"
                     alt="" />
                 </div>
                 <div>
                   <img
-                    class="mr-3 rounded"
+                    class="mr-3 rounded media-590:w-[90px] media-380:w-[70px]"
                     src="img/review-photo-1.jpg"
                     alt="" />
                 </div>
                 <div>
                   <img
-                    class="mr-3 rounded"
+                    class="mr-3 rounded media-590:w-[90px] media-380:w-[70px]"
                     src="img/review-photo-1.jpg"
                     alt="" />
                 </div>
@@ -313,7 +316,7 @@
                 class="caption w-[135px] mb-3 text-accent-500 px-2 py-1 bg-accent-100 rounded-2xl">
                 Проверенный продавец
               </p>
-              <p class="body-m text-neutral-300">
+              <p class="body-m text-neutral-300 media-590:body-s">
                 Очень рада тому, что меня пригласили в эту группу. Много
                 домашних продуктов , некоторые продавцы готовы привезти на дом
                 всё необходимое. Есть и соленья, и варенье, как говорится.
@@ -325,7 +328,7 @@
       </section>
       <section>
         <div class="max-w-[1268px] mx-auto px-5">
-          <h2 class="h2 text-neutral-600 mb-4">Похожие объявления</h2>
+          <h2 class="h2 text-neutral-600 mb-4 media-590:mobile-h2">Похожие объявления</h2>
           <div
             class="grid grid-cols-5 mb-[200px] cursor-[url('../img/icons/cursor.svg'),auto] media-1255:grid-cols-media-3 media-1255:justify-center media-780:grid-cols-media-grid-2 media-533:grid-cols-media-grid-mobile-2 media-780:grid-cols-media-grid-mobile-md-2 media-533:grid-cols-media-grid-mobile-sm-2 media-380:grid-cols-media-grid-mobile-sm-1">
             <div
@@ -333,7 +336,7 @@
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div
-                    class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card1 bg-no-repeat text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px]">
+                    class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card1 bg-no-repeat text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px] media-380:w-[200x] media-380:h-[150px]">
                     <p
                       class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
                       Несколько товаров
@@ -452,7 +455,7 @@
             <div
               class="bg-neutralWhite hover:z-50 hover:p-4 hover:pb-0 hover:mr-[-1rem] relative transition-all rounded-lg rounded-b-none hover:shadow-2xl pb-4 card mr-[5px]">
               <div
-                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px]">
+                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px] media-380:w-[200px] media-380:h-[150px]">
                 <p
                   class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8] hidden">
                   Несколько товаров
@@ -547,7 +550,7 @@
             <div
               class="bg-neutralWhite hover:z-50 hover:p-4 hover:pb-0 hover:mr-[-1rem] relative transition-all rounded-lg rounded-b-none hover:shadow-2xl pb-4 card mr-[5px]">
               <div
-                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px]">
+                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px] media-380:w-[200px] media-380:h-[150px]">
                 <p
                   class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8] hidden">
                   Несколько товаров
@@ -642,7 +645,7 @@
             <div
               class="bg-neutralWhite hover:z-50 hover:p-4 hover:pb-0 hover:mr-[-1rem] relative transition-all rounded-lg rounded-b-none hover:shadow-2xl pb-4 card mr-[5px]">
               <div
-                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px]">
+                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px] media-380:w-[200px] media-380:h-[150px]">
                 <p
                   class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8] hidden">
                   Несколько товаров
@@ -737,7 +740,7 @@
             <div
               class="bg-neutralWhite hover:z-50 hover:p-4 hover:pb-0 hover:mr-[-1rem] relative transition-all rounded-lg rounded-b-none hover:shadow-2xl pb-4 card mr-[5px]">
               <div
-                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px]">
+                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px] media-380:w-[200px] media-380:h-[150px]">
                 <p
                   class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8] hidden">
                   Несколько товаров
@@ -832,7 +835,7 @@
             <div
               class="bg-neutralWhite hover:z-50 hover:p-4 hover:pb-0 hover:mr-[-1rem] relative transition-all rounded-lg rounded-b-none hover:shadow-2xl pb-4 card mr-[5px]">
               <div
-                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px]">
+                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px] media-380:w-[200px] media-380:h-[150px]">
                 <p
                   class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8] hidden">
                   Несколько товаров
@@ -927,7 +930,7 @@
             <div
               class="bg-neutralWhite hover:z-50 hover:p-4 hover:pb-0 hover:mr-[-1rem] relative transition-all rounded-lg rounded-b-none hover:shadow-2xl pb-4 card mr-[5px]">
               <div
-                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px]">
+                class="w-[228px] h-[172px] rounded-lg mb-2 bg-card1 text-right pt-1 pr-2 media-780:w-[200px] media-780:h-[150px] media-533:w-[150px] media-533:h-[112px] media-380:w-[200px] media-380:h-[150px]">
                 <p
                   class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8] hidden">
                   Несколько товаров
