@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .mobile-h4 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .body-m {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .body-m-semibold {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .body-s {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .body-s-semibold {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .caption {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .nunito-reg {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nunito-sem {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .nunito-bold {
+    font-family: 'Nunito', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+.icon-hover:hover .icon{
+  filter: brightness(0) saturate(100%) invert(65%) sepia(57%) saturate(304%) hue-rotate(64deg) brightness(94%) contrast(92%);
+}
+.card:hover .card-info{
+  display: block;
+}
+.card:hover .swiper-pagination{
+  display: block;
+}
+
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-slide {
+  display: flex;
+  white-space: nowrap;
+}
+
+.swiper-pagination-bullet {
+  width: 46.5px;
+  height: 4px;
+  border-radius: 8px;
+  opacity: 1;
+  background: #C0C0C0;
+}
+
+.swiper-pagination-bullet-active {
+  background: #7CC06E;
+}
+@media(max-width:780px){
+  .swiper-pagination-bullet {
+    width: 36.5px;
+  }
+}
+@media(max-width:533px){
+  .swiper-pagination-bullet {
+    width: 26.5px;
+  }
+}
