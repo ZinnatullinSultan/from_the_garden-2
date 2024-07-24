@@ -15,7 +15,7 @@
     <link href="https://cdn.jsdelivr.net/gh/fibit/swiper-mouseover@main/swiper-mouseover.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body class="">
+  <body>
     <header class="mt-5 transition-colors">
       <div class="max-w-[1268px] mx-auto px-5">
         <div
@@ -64,36 +64,78 @@
         </div>
       </div>
     </header>
-    <section class="mt-[50px] mb-[30px]">
+    <section class="mt-[50px] mb-[30px] ">
       <div class="max-w-[1268px] mx-auto px-5">
-        <h1 class="h1 mb-5 media-533:mobile-h1">Домашнее всегда вкуснее!</h1>
+        <h1 class="h1 mb-5 relative  media-533:mobile-h1 ">Домашнее всегда вкуснее!</h1>
         <div
           class="flex justify-between media-1255:grid media-1255:grid-cols-2 media-1255:justify-center media-1255:grid-cols-media-2 media-1255:gap-x-5 gap-y-5 media-655:grid-cols-media-list-1">
-          <div class="bg-accent-50 rounded-lg px-6 py-4 flex items-center">
+          <div class="bg-accent-50 relative rounded-lg px-6 py-4 flex items-center item">
             <img class="mr-3" src="img/icons/heart.svg" alt="" />
             <p class="w-[188px] body-s-semibold text-[#151b1a]">
               Природный вкус в каждом продукте
             </p>
+            <div class="w-[250px] hidden tooltip absolute z-20 bg-neutralWhite text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2  text-sm ">
+              Откройте для себя настоящий вкус натуральных домашних продуктов, выращенных с любовью дачниками.
+            </div>
           </div>
-          <div class="bg-accent-50 rounded-lg px-6 py-4 flex items-center">
+          <div class="bg-accent-50 relative item rounded-lg px-6 py-4 flex items-center">
             <img class="mr-3" src="img/icons/cow.svg" alt="" />
             <p class="w-[188px] body-s-semibold text-[#151b1a]">
               Фермерское качество
             </p>
+            <div class="w-[250px] hidden tooltip absolute z-20 bg-neutralWhite text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2  text-sm ">
+              Продавцы на нашем сайте проходят строгий отбор, чтобы гарантировать вам домашнее качество.
+            </div>
           </div>
-          <div class="bg-accent-50 rounded-lg px-6 py-4 flex items-center">
+          <div class="bg-accent-50 relative item rounded-lg px-6 py-4 flex items-center">
             <img class="mr-3" src="img/icons/product.svg" alt="" />
             <p class="w-[188px] body-s-semibold text-[#151b1a]">
               Только натуральные продукты от дачников
             </p>
+            <div class="w-[250px] hidden tooltip absolute z-20 bg-neutralWhite text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2  text-sm ">
+              На нашем сайте только натуральные продукты, предлагаемые настоящими дачниками.
+            </div>
           </div>
-          <div class="bg-accent-50 rounded-lg px-6 py-4 flex items-center">
+          <div class="bg-accent-50 relative item rounded-lg px-6 py-4 flex items-center">
             <img class="mr-3" src="img/icons/koko.svg" alt="" />
             <p class="w-[188px] body-s-semibold text-[#151b1a]">
               Контролируем каждого продавца
             </p>
+            <div class="w-[250px] hidden tooltip absolute z-20 bg-neutralWhite text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2  text-sm ">
+              Система отзывов и рейтингов от сообщества покупателей гарантирует качество каждого продавца.
+            </div>
           </div>
         </div>
+        <!-- <div class="flex justify-between media-1255:grid media-1255:grid-cols-2 media-1255:justify-center media-1255:grid-cols-media-2 media-1255:gap-x-5 gap-y-8 media-655:grid-cols-media-list-1">
+          <div class="bg-accent-50  rounded-lg px-6 py-4 flex items-center relative group">
+            <img class="mr-3" src="img/icons/heart.svg" alt="" />
+            <p class="w-[188px] body-s-semibold text-gray-800">Природный вкус в каждом продукте</p>
+            <div class="w-[250px] invisible absolute bg-white text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 text-sm group-hover:visible group-hover:opacity-100">
+              Откройте для себя настоящий вкус натуральных домашних продуктов, выращенных с любовью дачниками.
+            </div>
+          </div>
+          <div class="bg-accent-50 rounded-lg px-6 py-4 flex items-center relative group">
+            <img class="mr-3" src="img/icons/cow.svg" alt="" />
+            <p class="w-[188px] body-s-semibold text-gray-800">Домашнее качество</p>
+            <div class="w-[250px] invisible absolute bg-white text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 text-sm group-hover:visible group-hover:opacity-100">
+              Продавцы на нашем сайте проходят строгий отбор, чтобы гарантировать вам домашнее качество.
+            </div>
+          </div>
+          <div class="bg-accent-50 rounded-lg px-6 py-4 flex items-center relative group">
+            <img class="mr-3" src="img/icons/product.svg" alt="" />
+            <p class="w-[188px] body-s-semibold text-gray-800">Только натуральные продукты от дачников</p>
+            <div class="w-[250px] invisible absolute bg-white text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 text-sm group-hover:visible group-hover:opacity-100">
+              На нашем сайте только натуральные продукты, предлагаемые настоящими дачниками.
+            </div>
+          </div>
+          <div class="bg-accent-50 rounded-lg px-6 py-4 flex items-center relative group">
+            <img class="mr-3" src="img/icons/koko.svg" alt="" />
+            <p class="w-[188px] body-s-semibold text-gray-800">Контролируем каждого продавца</p>
+            <div class="w-[250px] invisible absolute bg-white text-gray-800 text-center rounded-lg p-2.5 shadow-lg bottom-[125%] left-1/2 transform -translate-x-1/2 opacity-0 transition-opacity duration-300 text-sm group-hover:visible group-hover:opacity-100">
+              Система отзывов и рейтингов от сообщества покупателей гарантирует качество каждого продавца.
+            </div>
+          </div>
+        </div> -->
       </div>
     </section>
     <section>

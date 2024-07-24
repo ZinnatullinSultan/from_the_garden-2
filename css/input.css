@@ -97,6 +97,9 @@
 .icon-hover:hover .icon{
   filter: brightness(0) saturate(100%) invert(65%) sepia(57%) saturate(304%) hue-rotate(64deg) brightness(94%) contrast(92%);
 }
+.item:hover .tooltip{
+  display: block;
+}
 .card:hover .card-info{
   display: block;
 }
