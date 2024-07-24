@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html class="nunito-reg" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/fibit/swiper-mouseover@main/swiper-mouseover.min.css"
+      rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="mt-5 transition-colors mb-[50px]">
+      <div class="max-w-[1268px] mx-auto px-5">
+        <div
+          class="flex justify-between items-center media-920:flex-col media-920:items-start">
+          <div class="mr-6 media-920:mb-3">
+            <a href="/">
+              <img class="max-w-none" src="img/icons/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="w-full flex justify-between">
+            <button
+              class="relative mr-3 bg-accent-400 px-3 py-[9px] text-neutralWhite rounded body-s-semibold hover:bg-accent-300 media-920:w-11 media-920:h-[38px] media-920:mr-1">
+              <img
+                class="size-5 top-2 absolute mr-2 media-920:mr-0"
+                src="img/icons/hamburger-button.svg"
+                alt="" />
+              <span class="ml-6 media-920:hidden">Каталог</span>
+            </button>
+            <div
+              class="flex w-full items-center border border-accent-400 rounded-md mr-3 media-920:mr-0">
+              <input
+                type="text"
+                name="text"
+                class="w-full px-3 py-1 bg-transparent outline-none"
+                placeholder="Искать..." />
+              <button
+                class="flex items-center h-full bg-accent-400 px-3 py-[9px] text-neutralWhite rounded-r body-s-semibold hover:bg-accent-300 media-533:caption">
+                Найти
+              </button>
+            </div>
+          </div>
+          <div class="media-920:w-full">
+            <button
+              class="relative mr-6 border border-accent-400 text-accent-400 px-3 py-[9px] rounded body-s-semibold hover:border-accent-300 hover:text-accent-300 media-920:mt-1 media-920:mr-0 media-920:mb-3 media-920:w-full media-533:caption">
+              <img
+                class="size-4 top-2 absolute media-920:left-[45%] media-655:left-[43%] media-533:size-3"
+                src="img/icons/filter.svg"
+                alt="" /><span class="ml-5">Фильтр</span>
+            </button>
+          </div>
+          <button
+            class="min-w-[200px] flex items-center body-s-semibold text-neutral-600 hover:text-accent-400 icon-hover media-533:caption">
+            <img class="mr-1 icon" src="img/icons/local.svg" alt="" />
+            Воронежская область
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <nav class="mb-5" aria-label="breadcrumb">
+        <div class="max-w-[1268px] mx-auto px-5">
+          <ol
+            class="flex items-center body-s-semibold media-590:caption text-neutral-600">
+            <li class=""><a href="index.html">Главная</a></li>
+            <li
+              class="before:content-breadcrumb before:inline-block before:px-2 before:pr-1">
+              <a href="#">Фрукты и ягоды</a>
+            </li>
+          </ol>
+        </div>
+      </nav>
+      <section class="mb-[218px]">
+        <div class="max-w-[1268px] mx-auto px-5">
+          <div class="flex gap-6 media-750:flex-col media-750:items-center">
+            <div>
+              <div
+                class="card-info w-[356px] h-[350px] mb-5 media-840:h-[260px] media-390:w-[300px] bg-neutralWhite p-5 rounded shadow-2xl">
+                <div class="flex items-center mb-5 media-780:mb-3">
+                  <img class="mr-2" src="img/avatar-big.png" alt="" />
+                  <div class="">
+                    <h2
+                      class="h2 text-neutral-600 mb-1 media-840:body-s-semibold">
+                      Васильев Александр
+                    </h2>
+                    <p
+                      class="caption w-[147px] text-accent-500 flex px-2 py-[2px] bg-accent-100 rounded-2xl">
+                      <img class="mr-1" src="img/icons/check.svg" alt="" /><span
+                        class="">
+                        Проверенный продавец
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="flex justify-between mb-3 body-m-semibold media-840:mb-2 media-840:caption">
+                  <p class="text-neutral-300">
+                    Рейтинг продавца:
+                  </p>
+                  <p class="text-neutral-600 flex">
+                    <img class="mr-1" src="img/icons/star.svg" alt="" /> 5.0
+                  </p>
+                </div>
+                <div
+                  class="flex justify-between mb-5 media-840:mb-2 body-m-semibold media-840:caption">
+                  <p class="text-neutral-300">
+                    Кол-во объявлений:
+                  </p>
+                  <p class="text-neutral-600">12</p>
+                </div>
+                <div
+                  class="flex justify-between mb-5 media-840:mb-2 body-m-semibold media-840:caption">
+                  <p class="text-neutral-300">
+                    Дата регистрации:
+                  </p>
+                  <p class="text-neutral-600">12.07.2018</p>
+                </div>
+                <div
+                  class="flex justify-between mb-5 media-840:mb-2 body-m-semibold media-840:caption">
+                  <p class="text-neutral-300 ">
+                    Дата первого объявления:
+                  </p>
+                  <p class="text-neutral-600 ">12.07.2018</p>
+                </div>
+                <div class="mb-3 text-center">
+                  <a
+                    class="relative block w-[316px] media-390:w-[260px] body-s-semibold media-840:caption text-neutralWhite px-7 py-2 bg-vk-400 rounded mb-2 hover:bg-vk-300 "
+                    href="#">
+                    <img
+                      class="top-2 left-[110px] size-4 absolute mr-2 media-840:top-[8px] media-840:size-3 media-840:left-[125px] media-390:left-[100px] media-390:top-[7px]"
+                      src="img/icons/vk.svg"
+                      alt="" />
+                    <span class="ml-5">Написать </span>
+                  </a>
+                </div>
+                <div class="text-center">
+                  <a
+                    class="relative block w-[316px] media-390:w-[260px] body-s-semibold media-840:caption text-neutralWhite px-7 py-2 bg-accent-400 rounded hover:bg-accent-300 "
+                    href="#">
+                    <img
+                      class="top-2 left-[115px] size-4 absolute media-840:top-[8px] media-840:size-3 media-840:left-[130px] media-390:left-[100px] media-390:top-[7px]"
+                      src="img/icons/reviews.svg"
+                      alt="" />
+                    <span class="ml-5">Отзывы</span>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-info w-[356px] mb-5 bg-neutralWhite p-5 media-390:w-[300px] rounded shadow-2xl">
+                <h2 class="h2 text-neutral-600 mb-5 media-840:mobile-h2">
+                  Верификация пользователя
+                </h2>
+                <div
+                  class="flex justify-between mb-5 body-m-semibold media-840:body-s-semibold">
+                  <p class="text-neutral-300 ">Дата:</p>
+                  <p class="text-neutral-600 ">12.07.2018</p>
+                </div>
+                <div class="swiper mySwiper2 mb-3 h-[193px]">
+                  <div class="swiper-wrapper h-[164px]">
+                    <div class="swiper-slide justify-center relative">
+                      <img
+                        class="rounded"
+                        src="img/verif-gallery.jpg"
+                        alt="" /><button
+                        class="size-9 top-[39%] absolute pl-[13px] bg-accent-400 hover:bg-accent-300 rounded-full">
+                        <img class="size-3" src="img/icons/play.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="swiper-slide justify-center relative">
+                      <img
+                        class="rounded"
+                        src="img/verif-gallery.jpg"
+                        alt="" /><button
+                        class="size-9 top-[39%] absolute pl-[13px] bg-accent-400 hover:bg-accent-300 rounded-full">
+                        <img class="size-3" src="img/icons/play.svg" alt="" />
+                      </button>
+                    </div>
+                    <div class="swiper-slide justify-center relative">
+                      <img
+                        class="rounded"
+                        src="img/verif-gallery.jpg"
+                        alt="" /><button
+                        class="size-9 top-[39%] absolute pl-[13px] bg-accent-400 hover:bg-accent-300 rounded-full">
+                        <img class="size-3" src="img/icons/play.svg" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next top-[43%] right-0 media-840:hidden">
+                    <img
+                      class="w-[12px] h-[22px]"
+                      src="img/icons/arr-right.svg"
+                      alt="" />
+                  </div>
+                  <div class="swiper-button-prev top-[43%] left-0 media-840:hidden">
+                    <img
+                      class="w-[12px] h-[22px]"
+                      src="img/icons/arr-left.svg"
+                      alt="" />
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <p class="text-neutral-300 body-s">
+                  Верификация позволяет продавцам подтвердить подлинность своих
+                  товаров, отправляя фото и видео своих хозяйств и огородов. Это
+                  повышает доверие покупателей, подтверждает качество продукции
+                  и защищает от мошенничества. Покупатели могут быть уверены,
+                  что приобретают товары непосредственно у частных дачников.
+                </p>
+              </div>
+            </div>
+            <div>
+              <h2 class="h2 mb-4 text-neutral-600 media-840:mobile-h2">Объявления продавца</h2>
+              <div
+                class="grid grid-cols-media-4 cursor-[url('../img/icons/cursor.svg'),auto] media-1270:grid-cols-media-sm-3 media-1050:grid-cols-media-sm-2 media-840:grid-cols-media-grid-mobile-sm-2 media-750:justify-center media-390:grid-cols-media-grid-mobile-sm-1">
+                <div
+                  class="bg-neutralWhite hover:z-50 hover:p-4 hover:mr-[-1rem] relative transition-all rounded-lg hover:shadow-2xl pb-8 card mr-[15px]">
+                  <div class="swiper mySwiper mb-2">
+                    <div class="swiper-wrapper h-[150px] media-840:h-[112px] media-390:h-[150px]">
+                      <div
+                        class="swiper-slide rounded-lg  !block w-[200px] bg-card1 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card2 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card3 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card4 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hidden"></div>
+                  </div>
+                  <a href="announcement.html">
+                    <h3
+                      class="h3 text-neutral-600 w-[200px] mb-2 media-840:hidden media-533:hidden hover:text-accent-400 media-390:block">
+                      Продам красную смородину, сбор на пон...
+                    </h3>
+                  </a>
+                  <a href="announcement.html">
+                    <h3
+                      class="mobile-h3 text-neutral-600 w-[150px] mb-2 hidden media-840:block hover:text-accent-400 media-390:hidden">
+                      Продам красную смородину, сбор на...
+                    </h3>
+                  </a>
+                  <p
+                    class="body-m-semibold text-accent-500 mb-2 media-840:body-s-semibold media-390:body-m-semibold">
+                    Цена не указана
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    ЖК “Подберёзовик”
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    Сегодня 12:15
+                  </p>
+                </div>
+                <div
+                  class="bg-neutralWhite hover:z-50 hover:p-4 hover:mr-[-1rem] relative transition-all rounded-lg hover:shadow-2xl pb-8 card mr-[15px]">
+                  <div class="swiper mySwiper mb-2">
+                    <div class="swiper-wrapper h-[150px] media-840:h-[112px] media-390:h-[150px]">
+                      <div
+                        class="swiper-slide rounded-lg  !block w-[200px] bg-card1 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card2 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card3 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card4 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hidden"></div>
+                  </div>
+                  <a href="announcement.html">
+                    <h3
+                      class="h3 text-neutral-600 w-[200px] mb-2 media-840:hidden media-533:hidden hover:text-accent-400 media-390:block">
+                      Продам красную смородину, сбор на пон...
+                    </h3>
+                  </a>
+                  <a href="announcement.html">
+                    <h3
+                      class="mobile-h3 text-neutral-600 w-[150px] mb-2 hidden media-840:block hover:text-accent-400 media-390:hidden">
+                      Продам красную смородину, сбор на...
+                    </h3>
+                  </a>
+                  <p
+                    class="body-m-semibold text-accent-500 mb-2 media-840:body-s-semibold media-390:body-m-semibold">
+                    Цена не указана
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    ЖК “Подберёзовик”
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    Сегодня 12:15
+                  </p>
+                </div>
+                <div
+                  class="bg-neutralWhite hover:z-50 hover:p-4 hover:mr-[-1rem] relative transition-all rounded-lg hover:shadow-2xl pb-8 card mr-[15px]">
+                  <div class="swiper mySwiper mb-2">
+                    <div class="swiper-wrapper h-[150px] media-840:h-[112px] media-390:h-[150px]">
+                      <div
+                        class="swiper-slide rounded-lg  !block w-[200px] bg-card1 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card2 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card3 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card4 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hidden"></div>
+                  </div>
+                  <a href="announcement.html">
+                    <h3
+                      class="h3 text-neutral-600 w-[200px] mb-2 media-840:hidden media-533:hidden hover:text-accent-400 media-390:block">
+                      Продам красную смородину, сбор на пон...
+                    </h3>
+                  </a>
+                  <a href="announcement.html">
+                    <h3
+                      class="mobile-h3 text-neutral-600 w-[150px] mb-2 hidden media-840:block hover:text-accent-400 media-390:hidden">
+                      Продам красную смородину, сбор на...
+                    </h3>
+                  </a>
+                  <p
+                    class="body-m-semibold text-accent-500 mb-2 media-840:body-s-semibold media-390:body-m-semibold">
+                    Цена не указана
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    ЖК “Подберёзовик”
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    Сегодня 12:15
+                  </p>
+                </div>
+                <div
+                  class="bg-neutralWhite hover:z-50 hover:p-4 hover:mr-[-1rem] relative transition-all rounded-lg hover:shadow-2xl pb-8 card mr-[15px]">
+                  <div class="swiper mySwiper mb-2">
+                    <div class="swiper-wrapper h-[150px] media-840:h-[112px] media-390:h-[150px]">
+                      <div
+                        class="swiper-slide rounded-lg  !block w-[200px] bg-card1 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card2 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card3 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card4 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hidden"></div>
+                  </div>
+                  <a href="announcement.html">
+                    <h3
+                      class="h3 text-neutral-600 w-[200px] mb-2 media-840:hidden media-533:hidden hover:text-accent-400 media-390:block">
+                      Продам красную смородину, сбор на пон...
+                    </h3>
+                  </a>
+                  <a href="announcement.html">
+                    <h3
+                      class="mobile-h3 text-neutral-600 w-[150px] mb-2 hidden media-840:block hover:text-accent-400 media-390:hidden">
+                      Продам красную смородину, сбор на...
+                    </h3>
+                  </a>
+                  <p
+                    class="body-m-semibold text-accent-500 mb-2 media-840:body-s-semibold media-390:body-m-semibold">
+                    Цена не указана
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    ЖК “Подберёзовик”
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    Сегодня 12:15
+                  </p>
+                </div>
+
+                <div
+                  class="bg-neutralWhite card-hidden hidden hover:z-50 hover:p-4 hover:mr-[-1rem] relative transition-all rounded-lg hover:shadow-2xl pb-8 card mr-[15px]">
+                  <div class="swiper mySwiper mb-2">
+                    <div class="swiper-wrapper h-[150px] media-840:h-[112px] media-390:h-[150px]">
+                      <div
+                        class="swiper-slide rounded-lg  !block w-[200px] bg-card1 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card2 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card3 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card4 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hidden"></div>
+                  </div>
+                  <a href="announcement.html">
+                    <h3
+                      class="h3 text-neutral-600 w-[200px] mb-2 media-840:hidden media-533:hidden hover:text-accent-400 media-390:block">
+                      Продам красную смородину, сбор на пон...
+                    </h3>
+                  </a>
+                  <a href="announcement.html">
+                    <h3
+                      class="mobile-h3 text-neutral-600 w-[150px] mb-2 hidden media-840:block hover:text-accent-400 media-390:hidden">
+                      Продам красную смородину, сбор на...
+                    </h3>
+                  </a>
+                  <p
+                    class="body-m-semibold text-accent-500 mb-2 media-840:body-s-semibold media-390:body-m-semibold">
+                    Цена не указана
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    ЖК “Подберёзовик”
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    Сегодня 12:15
+                  </p>
+                </div>
+                <div
+                  class="bg-neutralWhite card-hidden hidden hover:z-50 hover:p-4 hover:mr-[-1rem] relative transition-all rounded-lg hover:shadow-2xl pb-8 card mr-[15px]">
+                  <div class="swiper mySwiper mb-2">
+                    <div class="swiper-wrapper h-[150px] media-840:h-[112px] media-390:h-[150px]">
+                      <div
+                        class="swiper-slide rounded-lg  !block w-[200px] bg-card1 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card2 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card3 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card4 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hidden"></div>
+                  </div>
+                  <a href="announcement.html">
+                    <h3
+                      class="h3 text-neutral-600 w-[200px] mb-2 media-840:hidden media-533:hidden hover:text-accent-400 media-390:block">
+                      Продам красную смородину, сбор на пон...
+                    </h3>
+                  </a>
+                  <a href="announcement.html">
+                    <h3
+                      class="mobile-h3 text-neutral-600 w-[150px] mb-2 hidden media-840:block hover:text-accent-400 media-390:hidden">
+                      Продам красную смородину, сбор на...
+                    </h3>
+                  </a>
+                  <p
+                    class="body-m-semibold text-accent-500 mb-2 media-840:body-s-semibold media-390:body-m-semibold">
+                    Цена не указана
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    ЖК “Подберёзовик”
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    Сегодня 12:15
+                  </p>
+                </div>
+                <div
+                  class="bg-neutralWhite card-hidden hidden hover:z-50 hover:p-4 hover:mr-[-1rem] relative transition-all rounded-lg hover:shadow-2xl pb-8 card mr-[15px]">
+                  <div class="swiper mySwiper mb-2">
+                    <div class="swiper-wrapper h-[150px] media-840:h-[112px] media-390:h-[150px]">
+                      <div
+                        class="swiper-slide rounded-lg  !block w-[200px] bg-card1 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline mr-1 rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card2 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card3 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                      <div
+                        class="swiper-slide rounded-lg !block w-[228px] h-[172px] mb-2 bg-card4 bg-no-repeat text-right pt-1 pr-2 media-840:w-[150px] media-840:h-[112px] media-390:h-[150px]">
+                        <p
+                          class="inline rounded-xl px-2 py-[2px] caption text-neutralBlack bg-neutralWhite bg-opacity-[0.8]">
+                          Несколько товаров
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hidden"></div>
+                  </div>
+                  <a href="announcement.html">
+                    <h3
+                      class="h3 text-neutral-600 w-[200px] mb-2 media-840:hidden media-533:hidden hover:text-accent-400 media-390:block">
+                      Продам красную смородину, сбор на пон...
+                    </h3>
+                  </a>
+                  <a href="announcement.html">
+                    <h3
+                      class="mobile-h3 text-neutral-600 w-[150px] mb-2 hidden media-840:block hover:text-accent-400 media-390:hidden">
+                      Продам красную смородину, сбор на...
+                    </h3>
+                  </a>
+                  <p
+                    class="body-m-semibold text-accent-500 mb-2 media-840:body-s-semibold media-390:body-m-semibold">
+                    Цена не указана
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    ЖК “Подберёзовик”
+                  </p>
+                  <p class="body-s text-neutral-300 media-840:caption media-390:body-s">
+                    Сегодня 12:15
+                  </p>
+                </div>
+                
+              </div>
+              <div class="text-center mb-8"><button class="body-s-semibold btn text-accent-400 hover:text-accent-300 media-840:caption">Показать ещё</button></div>
+              <section>
+                  <div class="mb-4 max-w-[848px]">
+                    <h2 class="h2 text-neutral-600 mb-4 media-840:mobile-h2">Отзывы</h2>
+                    <div class="body-s media-840:caption">
+                      <button
+                        class="px-2 py-1 mr-4 text-neutralWhite bg-accent-400 rounded-2xl media-390:mr-1">
+                        Все<span class="ml-1">12</span>
+                      </button>
+                      <button
+                        class="px-2 py-1 mr-4 text-accent-400 bg-neutral-50 hover:text-neutralWhite hover:bg-accent-400 rounded-2xl media-390:mr-1">
+                        Положительные<span class="ml-1">11</span>
+                      </button>
+                      <button
+                        class="px-2 py-1 mr-4 text-error-400 bg-neutral-50 hover:text-neutralWhite hover:bg-accent-400 rounded-2xl media-390:mr-1">
+                        Отрицательные<span class="ml-1">1</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="max-w-[848px] mb-[72px]">
+                    <div class="p-5 shadow-2xl mb-5">
+                      <div class="flex justify-between mb-3 media-840:flex-col media-840:gap-3">
+                        <div class="flex items-center ">
+                          <img class="mr-2" src="img/review-1.png" alt="" />
+                          <p class="body-s-semibold text-neutral-600">Сергеева Ольга</p>
+                        </div>
+                        <div class="flex items-center">
+                          <img class="mr-2" src="img/icons/link.svg" alt="" />
+                          <a
+                            class="body-s-semibold text-accent-400 hover:text-accent-300 media-840:caption"
+                            href="/index.html"
+                            >Чёрная смородина, 1 кг</a
+                          >
+                        </div>
+                      </div>
+                      <p class="body-m text-neutral-300 mb-3 media-840:body-s">29.06.2024 16:31</p>
+                      <div class="flex mb-3">
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <p
+                        class="caption w-[135px] mb-3 text-accent-500 px-3 py-1 bg-accent-100 rounded-2xl">
+                        Положительный отзыв
+                      </p>
+                      <p class="body-m text-neutral-300 media-840:body-s">
+                        Очень рада тому, что меня пригласили в эту группу. Много
+                        домашних продуктов , некоторые продавцы готовы привезти на дом
+                        всё необходимое. Есть и соленья, и варенье, как говорится.
+                        Спасибо создателям группы, вы облегчаете жизнь людям.
+                      </p>
+                    </div>
+                    <div class="p-5 shadow-2xl mb-5">
+                      <div class="flex justify-between mb-3 media-840:flex-col media-840:gap-3">
+                        <div class="flex items-center ">
+                          <img class="mr-2" src="img/review-1.png" alt="" />
+                          <p class="body-s-semibold text-neutral-600">Сергеева Ольга</p>
+                        </div>
+                        <div class="flex items-center">
+                          <img class="mr-2" src="img/icons/link.svg" alt="" />
+                          <a
+                            class="body-s-semibold text-accent-400 hover:text-accent-300 media-840:caption"
+                            href="/index.html"
+                            >Чёрная смородина, 1 кг</a
+                          >
+                        </div>
+                      </div>
+                      <p class="body-m text-neutral-300 mb-3 media-840:body-s">29.06.2024 16:31</p>
+                      <div class="flex mb-3">
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <p
+                        class="caption w-[135px] mb-3 text-accent-500 px-3 py-1 bg-accent-100 rounded-2xl">
+                        Положительный отзыв
+                      </p>
+                      <p class="body-m text-neutral-300 media-840:body-s">
+                        Очень рада тому, что меня пригласили в эту группу. Много
+                        домашних продуктов , некоторые продавцы готовы привезти на дом
+                        всё необходимое. Есть и соленья, и варенье, как говорится.
+                        Спасибо создателям группы, вы облегчаете жизнь людям.
+                      </p>
+                    </div>
+                    <div class="p-5 shadow-2xl mb-5">
+                      <div class="flex justify-between mb-3 media-840:flex-col media-840:gap-3">
+                        <div class="flex items-center ">
+                          <img class="mr-2" src="img/review-1.png" alt="" />
+                          <p class="body-s-semibold text-neutral-600">Сергеева Ольга</p>
+                        </div>
+                        <div class="flex items-center">
+                          <img class="mr-2" src="img/icons/link.svg" alt="" />
+                          <a
+                            class="body-s-semibold text-accent-400 hover:text-accent-300 media-840:caption"
+                            href="/index.html"
+                            >Чёрная смородина, 1 кг</a
+                          >
+                        </div>
+                      </div>
+                      <p class="body-m text-neutral-300 mb-3 media-840:body-s">29.06.2024 16:31</p>
+                      <div class="flex mb-3">
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <p
+                        class="caption w-[135px] mb-3 text-accent-500 px-3 py-1 bg-accent-100 rounded-2xl">
+                        Положительный отзыв
+                      </p>
+                      <p class="body-m text-neutral-300 media-840:body-s">
+                        Очень рада тому, что меня пригласили в эту группу. Много
+                        домашних продуктов , некоторые продавцы готовы привезти на дом
+                        всё необходимое. Есть и соленья, и варенье, как говорится.
+                        Спасибо создателям группы, вы облегчаете жизнь людям.
+                      </p>
+                    </div>
+                    <div class="p-5 shadow-2xl mb-5">
+                      <div class="flex justify-between mb-3 media-840:flex-col media-840:gap-3">
+                        <div class="flex items-center ">
+                          <img class="mr-2" src="img/review-1.png" alt="" />
+                          <p class="body-s-semibold text-neutral-600">Сергеева Ольга</p>
+                        </div>
+                        <div class="flex items-center">
+                          <img class="mr-2" src="img/icons/link.svg" alt="" />
+                          <a
+                            class="body-s-semibold text-accent-400 hover:text-accent-300 media-840:caption"
+                            href="/index.html"
+                            >Чёрная смородина, 1 кг</a
+                          >
+                        </div>
+                      </div>
+                      <p class="body-m text-neutral-300 mb-3 media-840:body-s">29.06.2024 16:31</p>
+                      <div class="flex mb-3">
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                        <div>
+                          <img
+                            class="mr-3 rounded media-840:w-[90px] media-380:w-[70px]"
+                            src="img/review-photo-1.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <p
+                        class="caption w-[135px] mb-3 text-error-500 px-3 py-1 bg-error-100 rounded-2xl">
+                        Отрицательный отзыв
+                      </p>
+                      <p class="body-m text-neutral-300 media-840:body-s">
+                        Очень рада тому, что меня пригласили в эту группу. Много
+                        домашних продуктов , некоторые продавцы готовы привезти на дом
+                        всё необходимое. Есть и соленья, и варенье, как говорится.
+                        Спасибо создателям группы, вы облегчаете жизнь людям.
+                      </p>
+                    </div>
+                    
+                  </div>
+                  <nav>
+                    <ul class="flex list-none items-center justify-end mb-[55px]">
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 hover:bg-accent-100 hidden">
+                        <a href="#"><img src="img/icons/arr-left.svg" alt="" /></a>
+                      </li>
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 bg-accent-400 text-neutralWhite rounded">
+                        <a href="#">1</a>
+                      </li>
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 hover:bg-accent-100">
+                        <a href="#">2</a>
+                      </li>
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 hover:bg-accent-100">
+                        <a href="#">3</a>
+                      </li>
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 hover:bg-accent-100">
+                        <a href="#">4</a>
+                      </li>
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 hover:bg-accent-100">
+                        <a href="#">5</a>
+                      </li>
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 hover:bg-accent-100">
+                        <a href="#">6</a>
+                      </li>
+                      <li
+                        class="px-[11px] py-[6px] mr-1 body-m-semibold text-neutral-60 icon-hover">
+                        <a href="#">
+                          <img class="icon" src="img/icons/arr-right.svg" alt="">
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>             
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fibit/swiper-mouseover@main/swiper-mouseover.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

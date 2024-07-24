@@ -1,13 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./index.html', './announcement.html'],
+  content: ['./index.html', './announcement.html', './seller.html'],
   theme: {
     screens: {
       'media-1270': {'max': '1270px'},
       'media-1255': {'max': '1255px'},
+      'media-1050': {'max': '1050px'},
       'media-920': {'max': '920px'},
       'media-890': {'max': '890px'},
+      'media-840': {'max': '840px'},
       'media-780': {'max': '780px'},
+      'media-750': {'max': '750px'},
       'media-725': {'max': '725px'},
       'media-655': {'max': '655px'},
       'media-590': {'max': '590px'},
@@ -32,6 +35,9 @@ module.exports = {
         '-2xl': '0 5px 10px 0 rgba(0, 0, 0, 0.1)',
       },
       gridTemplateColumns: {
+        'media-4': 'repeat(4, 215px)',
+        'media-sm-3': 'repeat(3, 215px)',
+        'media-sm-2': 'repeat(2, 215px)',
         'media-3': 'repeat(3, minmax(0, 243px))',
         'media-2': 'repeat(2, minmax(0, 320px))',
         'media-list-1': 'repeat(1, minmax(0, 320px))',
