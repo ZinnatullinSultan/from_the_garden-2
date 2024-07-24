@@ -1,11 +1,5 @@
 const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 9,
-  freeMode: true,
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-  },
+  slidesPerView: 'auto',
 });
 
 const swiperCard = new Swiper('.mySwiper', {
@@ -32,18 +26,18 @@ var swiperSeller = new Swiper('.mySwiper2', {
 const toggleButton = document.querySelector('.btn');
 const cards = document.querySelectorAll('.card-hidden');
 
-toggleButton.addEventListener("click", function() {
-  cards.forEach(card => {
-      if (card.classList.contains("hidden")) {
-          card.classList.remove("hidden");
-      } else {
-          card.classList.add("hidden");
-      }
+toggleButton.addEventListener('click', function () {
+  cards.forEach((card) => {
+    if (card.classList.contains('hidden')) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
   });
 
-  if (toggleButton.textContent === "Показать ещё") {
-      toggleButton.textContent = "Скрыть";
+  if (toggleButton.textContent === 'Показать ещё') {
+    toggleButton.textContent = 'Скрыть';
   } else {
-      toggleButton.textContent = "Показать ещё";
+    toggleButton.textContent = 'Показать ещё';
   }
 });
