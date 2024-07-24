@@ -801,6 +801,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
 .\!block {
   display: block !important;
 }
