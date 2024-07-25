@@ -896,6 +896,10 @@ video {
   margin-bottom: 105px;
 }
 
+.mb-\[230px\] {
+  margin-bottom: 230px;
+}
+
 .\!block {
   display: block !important;
 }
