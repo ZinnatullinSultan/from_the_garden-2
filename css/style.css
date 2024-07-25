@@ -832,6 +832,22 @@ video {
   margin-bottom: 220px;
 }
 
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
+.mb-\[105px\] {
+  margin-bottom: 105px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mb-\[150px\] {
+  margin-bottom: 150px;
+}
+
 .\!block {
   display: block !important;
 }
