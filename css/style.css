@@ -699,8 +699,8 @@ video {
   z-index: 20;
 }
 
-.z-50 {
-  z-index: 50;
+.z-10 {
+  z-index: 10;
 }
 
 .col-span-5 {
@@ -818,6 +818,10 @@ video {
 
 .mt-\[50px\] {
   margin-top: 50px;
+}
+
+.mb-\[220px\] {
+  margin-bottom: 220px;
 }
 
 .\!block {
@@ -1294,6 +1298,30 @@ video {
   padding-top: 0.5rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-\[32\] {
+  padding-bottom: 32;
+}
+
+.pb-\[32px\] {
+  padding-bottom: 32px;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[16px\] {
+  padding-bottom: 16px;
+}
+
+.pb-\[26\] {
+  padding-bottom: 26;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1626,8 +1654,32 @@ video {
   z-index: 50;
 }
 
+.hover\:z-30:hover {
+  z-index: 30;
+}
+
+.hover\:z-20:hover {
+  z-index: 20;
+}
+
 .hover\:mr-\[-1rem\]:hover {
   margin-right: -1rem;
+}
+
+.hover\:mr-\[-16px\]:hover {
+  margin-right: -16px;
+}
+
+.hover\:mr-\[-1\]:hover {
+  margin-right: -1;
+}
+
+.hover\:mr-\[-116px\]:hover {
+  margin-right: -116px;
+}
+
+.hover\:mr-\[-16rem\]:hover {
+  margin-right: -16rem;
 }
 
 .hover\:border-accent-300:hover {
@@ -1659,8 +1711,24 @@ video {
   padding: 1rem;
 }
 
+.hover\:p-\[16px\]:hover {
+  padding: 16px;
+}
+
+.hover\:p-\[\]:hover {
+  padding: ;
+}
+
+.hover\:p-\[16\]:hover {
+  padding: 16;
+}
+
 .hover\:pb-0:hover {
   padding-bottom: 0px;
+}
+
+.hover\:pb-4:hover {
+  padding-bottom: 1rem;
 }
 
 .hover\:text-accent-300:hover {
